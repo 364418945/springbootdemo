@@ -19,6 +19,9 @@ public class ExceptionHandlera {
             GrilException grilException = (GrilException)e;
             result.setCode(grilException.getCode());
             result.setMessage(grilException.getMessage());
+        }else if(e instanceof IllegalArgumentException){
+            result.setCode(400);
+            result.setMessage(e.getMessage());
         }else{
             result.setCode(-1);
             result.setMessage("未知错误");

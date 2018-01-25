@@ -1,0 +1,430 @@
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 18996 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cd234a8: startup date [Mon Dec 25 08:56:12 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 466 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cd234a8: startup date [Mon Dec 25 08:56:12 CST 2017]; root of context hierarchy
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 0.971 seconds (JVM running for 802.62)
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cd234a8: startup date [Mon Dec 25 08:56:12 CST 2017]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 18996 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b37696: startup date [Mon Dec 25 09:14:37 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 797 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b37696: startup date [Mon Dec 25 09:14:37 CST 2017]; root of context hierarchy
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 1.388 seconds (JVM running for 1907.591)
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b37696: startup date [Mon Dec 25 09:14:37 CST 2017]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 18996 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38ece81f: startup date [Mon Dec 25 09:14:57 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 686 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38ece81f: startup date [Mon Dec 25 09:14:57 CST 2017]; root of context hierarchy
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 1.747 seconds (JVM running for 1928.887)
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38ece81f: startup date [Mon Dec 25 09:14:57 CST 2017]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 18996 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@130c3d77: startup date [Mon Dec 25 09:15:01 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1281 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@130c3d77: startup date [Mon Dec 25 09:15:01 CST 2017]; root of context hierarchy
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 2.017 seconds (JVM running for 1932.441)
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 18468 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0a3f92: startup date [Mon Dec 25 09:16:06 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 11380 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+HHH000262: Table not found: boy_love
+HHH000262: Table not found: boy_love
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0a3f92: startup date [Mon Dec 25 09:16:06 CST 2017]; root of context hierarchy
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 15.269 seconds (JVM running for 16.111)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+【hello】 idd 1 
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 11464 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27643f90: startup date [Mon Dec 25 09:19:28 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1774 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27643f90: startup date [Mon Dec 25 09:19:28 CST 2017]; root of context hierarchy
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 4.673 seconds (JVM running for 5.369)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27643f90: startup date [Mon Dec 25 09:19:28 CST 2017]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 11464 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29c00fa2: startup date [Mon Dec 25 09:25:05 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 522 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29c00fa2: startup date [Mon Dec 25 09:25:05 CST 2017]; root of context hierarchy
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 1.282 seconds (JVM running for 339.707)
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29c00fa2: startup date [Mon Dec 25 09:25:05 CST 2017]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 11464 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26aae896: startup date [Mon Dec 25 09:25:22 CST 2017]; root of context hierarchy
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 534 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grilController': Failed to introspect bean class [com.example.demo.GrilController] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: com/example/demo/model/dto/Gril
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SpringbootdemoApplication on DESKTOP-GQAGRKM with PID 4620 (E:\intellij_workspace1\springbootdemo\target\classes started by cityre in E:\intellij_workspace1\springbootdemo)
+The following profiles are active: dev
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@346ca557: startup date [Mon Dec 25 09:25:44 CST 2017]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Tomcat initialized with port(s): 8081 (http)
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.23
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2007 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+HHH000228: Running hbm2ddl schema update
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@346ca557: startup date [Mon Dec 25 09:25:44 CST 2017]; root of context hierarchy
+Mapped "{[/girl],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+Mapped "{[/girl/{id}],methods=[GET]}" onto public com.example.demo.model.dto.Gril com.example.demo.GrilController.hello(java.lang.Integer)
+Mapped "{[/girl2],methods=[POST]}" onto public void com.example.demo.GrilController.helloAdd2(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult)
+Mapped "{[/girl1],methods=[POST]}" onto public com.example.demo.Result<com.example.demo.model.dto.Gril> com.example.demo.GrilController.helloAdd1(com.example.demo.model.dto.Gril,org.springframework.validation.BindingResult) throws java.lang.Exception
+Mapped "{[/abc/hello],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.HelloController.hello()
+Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello1()
+Mapped "{[/hello3],methods=[GET]}" onto public com.example.demo.GirlProperties com.example.demo.HelloController.hello3()
+Mapped "{[/hello4/{id}],methods=[GET]}" onto public java.lang.Integer com.example.demo.HelloController.hello4(java.lang.Integer)
+Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello2()
+Mapped "{[/hello5],methods=[GET]}" onto public java.lang.String com.example.demo.HelloController.hello5(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Detected @ExceptionHandler methods in exceptionHandlera
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+LiveReload server is running on port 35729
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting ProtocolHandler ["http-nio-8081"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8081 (http)
+Started SpringbootdemoApplication in 4.946 seconds (JVM running for 5.639)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+【hello】 idd 1 

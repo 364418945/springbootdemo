@@ -1,0 +1,8 @@
+server:
+  context-path: /ss
+  port: 8081
+abc: 1234
+content: "abc:${abc}"
+girl:
+ age: pro12
+ cc: pro21

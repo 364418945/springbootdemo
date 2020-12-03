@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springbootdemo
     username: root
-    password: Sunsheng0607
+    password: root
   jpa:
     hibernate: #启动时自动更新数据库
       ddl-auto: update #create 删除重新创建（即使有数据） update(更新表结构，不影响数据) create-drop(创建完了接着删掉)

@@ -4,6 +4,8 @@ import com.google.common.collect.ImmutableMap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -33,8 +35,8 @@ import static org.hamcrest.Matchers.containsString;
  * 启动测试前生成好，通过test调用
  * author:sunsheng
  */
-@Slf4j
 public class PostMan_v2 {
+    Logger log = LoggerFactory.getLogger(getClass());
     private Resource resource;
     private String filePath;//"./avm2.0new.postman_collection.json"
     private PostManOutput_v2 postManOutput;//post脚本json对象

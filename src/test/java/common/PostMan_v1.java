@@ -26,8 +26,9 @@ import static org.hamcrest.Matchers.containsString;
  * 启动测试前生成好，通过test调用
  * author:sunsheng
  */
-@Slf4j
 public class PostMan_v1 {
+    Logger log = LoggerFactory.getLogger(getClass());
+
     //    private String filePath = "./avm1.0支付.postman_collection.json";//"./avm2.0new.postman_collection.json"
 //    private String filePath = "./testAll.postman_collection.json";//"./avm2.0new.postman_collection.json"
     private String filePath;//"./avm2.0new.postman_collection.json"

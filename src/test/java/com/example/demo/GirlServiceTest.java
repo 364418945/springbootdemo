@@ -17,13 +17,13 @@ public class GirlServiceTest {
     @Autowired
     GirlRespository girlRespository;
 
-    @Test
-    public void test(){
-        Gril gril = girlRespository.findOne(1);
-        Assert.assertEquals(1,(long)gril.getAge());
-        int i = '5';//获取5的asiII码
-        char b = 98;//获取asiII码为98的字符
-        System.out.println(i);
-        System.out.println(b);
-    }
+//    @Test
+//    public void test(){
+//        Gril gril = girlRespository.findOne(1);
+//        Assert.assertEquals(1,(long)gril.getAge());
+//        int i = '5';//获取5的asiII码
+//        char b = 98;//获取asiII码为98的字符
+//        System.out.println(i);
+//        System.out.println(b);
+//    }
 }
